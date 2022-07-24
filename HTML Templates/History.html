@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="Styles/history.css" rel="stylesheet">
+        <link href="Styles/utility.css" rel = "stylesheet">        
+        <script>        
+            const electron = require('electron');
+            const {ipcRenderer} = electron;
+
+            function record(){
+                ipcRenderer.send("recorder:start");
+            }
+            function openSettings(){
+                ipcRenderer.send("open:settings");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>History</h1>
+        <img id = "Graph" src = "../history.svg">
+        <div id= "menuBar"></div>
+        <div class="grid" id="menuButtonGrid">            
+            <button class="blackMenuButton" id = "homeButton" onclick ="window.location.href='Home.html'">
+                <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">Home</span>
+            </button>
+            <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
+                <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">Summary</span>
+            </button>
+            <button class="whiteMenuButton" id = "historyButton" onclick = "window.location.href='History.html'">
+                <img src = "./Images/history.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">History</span>
+            </button>
+        </div>
+        <button id ="settingsButton" onclick = "openSettings()">
+            <img src="Images/settings.png"/>
+        </button>
+    </body>
+</html>

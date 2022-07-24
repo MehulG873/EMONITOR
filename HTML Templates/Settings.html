@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="Styles/settings.css" rel="stylesheet">
+        <link href="Styles/utility.css" rel = "stylesheet">        
+        <script>        
+            // const electron = require('electron');
+            // const {ipcRenderer} = electron;
+
+            const style = document.createElement('style');
+
+            document.addEventListener("DOMContentLoaded", () => {
+                var video = document.getElementById("videoStream");
+                if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices
+                    .getUserMedia({ video: true })
+                    .then((stream) => {
+                        video.srcObject = stream;
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    });
+                }
+                navigator.mediaDevices.enumerateDevices().then(gotDevices);
+            });
+
+            console.log(document.getElementsByTagName("div"));
+
+            function gotDevices(mediaDevices) {
+                console.log(videoSelection)
+                // select.appendChild(document.createElement('option'));
+                let count = 1;
+                mediaDevices.forEach(mediaDevice => {
+                    if (mediaDevice.kind === 'videoinput') {
+                        const option = document.createElement('div');
+                        option.id="videoOption"+String(count);
+                        const label1 = mediaDevice.label || `Camera ${count}`;
+                        const textNode1 = document.createTextNode(label1);
+                        option.appendChild(textNode1);
+                        if(count==1){
+                            const label2 = mediaDevice.label || `Camera ${count}`;
+                            const textNode2 = document.createTextNode(label2);
+                            document.getElementById("videoSelected").appendChild(textNode2);
+                        }
+                        option.style = `transition: top ${0.166667*count}s 0s;`
+                        videoSelection.insertBefore(option, videoSelection.children[0]);
+
+                        option.classList.add("videoOptions");
+                        count++;
+                    }
+                });
+                count--;
+                for(let i =0; i<count; i++){
+                    style.textContent += `
+                        #videoSelection:hover #${videoSelection.children[i].id}{
+                            top: ${(92*count)-(92*i)}px;
+                        `
+                    if (i!=0){
+                        style.textContent+=`
+                            border-radius: 0px;
+                        }
+                        `
+                    }
+                    else{
+                        style.textContent+=`
+                            border-radius: 0 0 12px 12px;
+                        }
+                        `
+                    }
+                }
+                style.textContent+=`
+                    #videoSelection:hover{
+                        transition: height ${0.166667*count}s 0s;
+                        height: ${(92*count)+82}px;
+                    }
+                    #videoSelection{
+                        transition: height ${0.166667*count}s 0s;
+                    }
+                `
+                document.head.appendChild(style);
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="Settings">Settings</h1>
+        <!-- <p style = "position:absolute; top: 0px;" >Record from</p>
+        <input type="text" value="12:00AM" style ="position: absolute; top:0px; left: 400px; ">
+        <p>to</p>
+        <input type="text" value="12:00 PM">
+        <p>daily</p> -->
+        <p id="cameraText">Camera: </p>
+        <input type="checkbox" id="switch" />
+        <label for="switch">Toggle</label>
+        <div id = "videoStreamOutline" ></div>
+        <video autoplay id="videoStream"></video>
+        <div id="switchBackground">
+            <button id ="switch"></button>
+        </div>
+    </body>
+</html>
