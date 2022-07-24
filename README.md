@@ -12,11 +12,17 @@ __Setting up python dependencies__
 2. Update conda: conda update conda
 3. Create a new virtual enviroment for this project: conda create -n <Enviroment Name> python=3.8 anaconda
 4. Activate conda enviroment with: conda activate <Enviroment Name>
+8. (For Mac) Install AppKit: pip install pyobjc
 4. Install FER using command: pip install fer
-5. If using a macbook with M1, skip to step <Insert step number>
+5. If using a macbook with M1/M2, skip to step 9
 6. Install tensorflow using command: pip install tensorflow
-7. Install AppKit: pip install pyobjc
-8. Install Request: pip install request
+7. Install Request: pip install request
+(For M1/M2 Only)
+12. Install the tensorflow wheel tensorflow-2.4.1-py3-none-any.whl at:
+13. Assuming it was downloaded to Downloads run: pip install ~/Downloads/tensorflow-2.4.1-py3-none-any.whl
+14. Install Request: pip install requests
+
+
 
 
 __Settting up NodeJS dependencies__
@@ -30,7 +36,7 @@ __Other Tips__
 1. Allow Electron to access camera and notifications through systems preferences.
 2. Also allow python to access camera if requested
 
-Running the Application:
+__Running the Application__
 1. Access the appropriate virtual enviroments.
 2. type npm start, and being using the application!
 

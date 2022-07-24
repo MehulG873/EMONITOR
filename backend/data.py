@@ -39,11 +39,10 @@ class Data:
         data = pd.read_csv("backend/sessionData.csv")
         timesRan = list(data['time'])
         timeEmotion = {}
-        emotions=[]
-        logger.warning("Emotions Sent: {}".format(emotions))
         dataSplits = [data.iloc[int(len(data.index)/5) * i:int(len(data.index)/5) * (i+1)] for i in range(5)]
         totalEQ = 0
         for splitData in dataSplits:
+            emotions=[]
             timeUsed = list(splitData['time'])        
             if (emotion1!="none"):
                 emotions.append(list(splitData[emotion1]))
@@ -59,9 +58,10 @@ class Data:
                 for emotion in emotions:
                     timeEmotion[time]+=emotion[i]
                 counter+=1
+            logger.warning("time emotion: {}, emotions: {}".format(timeEmotion[time], emotions))
             timeEmotion[time]=timeEmotion[time]/counter
             totalEQ+= timeEmotion[time]
-            logger.warning("Time Emotion: {}, TotalEQ: {}".format(timeEmotion[time], totalEQ))
+            logger.warning("Time Emotion: {}, TotalEQ: {}, counter: {}".format(timeEmotion[time], totalEQ, counter))
         for time in list(timeEmotion.keys()):
             timeEmotion[time]/=max(totalEQ, 0.001)
         logger.warning("Calculated Time Emotions: {}".format(timeEmotion))

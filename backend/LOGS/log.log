@@ -1,325 +1,465 @@
-2022-07-23 23:31:03,600 | server.py-><module>():6 | WARNING | Created Flask and Request
-2022-07-23 23:31:03,600 | server.py-><module>():8 | WARNING | Imported JSON
-2022-07-23 23:31:03,942 | server.py-><module>():10 | WARNING | Imported Camera
-2022-07-23 23:31:07,985 | server.py-><module>():12 | WARNING | Imported Main
-2022-07-23 23:31:07,985 | server.py-><module>():14 | WARNING | Imported Sys
-2022-07-23 23:31:07,986 | server.py-><module>():20 | WARNING | Setup Flask
-2022-07-23 23:31:07,986 | main.py->__init__():16 | WARNING | Created Main Object
-2022-07-23 23:31:10,489 | main.py->__init__():20 | WARNING | Created Camera Object
-2022-07-23 23:31:10,759 | main.py->__init__():23 | WARNING | Created FER Object
-2022-07-23 23:31:10,762 | main.py->__init__():26 | WARNING | Created Data Object
-2022-07-23 23:31:10,770 | server.py-><module>():71 | WARNING | Ready to accept
-2022-07-23 23:31:10,772 | _internal.py->_log():224 | INFO |  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-2022-07-23 23:31:11,188 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:11,374 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:11,547 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:12,299 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:12,480 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:12,656 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:12,860 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:13,059 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:13,262 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:13,460 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:15,065 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:16,468 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:16] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:16,469 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:16,469 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:16,469 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:16,469 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:16] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:16,970 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:16] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:16,971 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:16,971 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:16,972 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:16,972 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:16] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:17,479 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:17] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:17,480 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:17,480 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:17,484 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:17,484 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:17] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:17,980 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:17] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:17,980 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:17,981 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:17,981 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:17,981 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:17] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:18,485 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:18] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:18,487 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:18,487 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:18,488 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:18,488 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:18] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:18,990 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:18] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:18,991 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:18,991 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:18,991 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:18,991 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:18] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:19,497 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:19] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:19,497 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:19,498 | main.py->isAngry():30 | WARNING | True
-2022-07-23 23:31:19,498 | server.py->isAngry():28 | WARNING | 1
-2022-07-23 23:31:19,498 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:19] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:20,000 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:20] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:20,000 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:20,001 | main.py->isAngry():30 | WARNING | True
-2022-07-23 23:31:20,001 | server.py->isAngry():28 | WARNING | 1
-2022-07-23 23:31:20,001 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:20] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:20,504 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:20] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:20,505 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:20,506 | main.py->isAngry():30 | WARNING | True
-2022-07-23 23:31:20,506 | server.py->isAngry():28 | WARNING | 1
-2022-07-23 23:31:20,506 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:20] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:21,008 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:21] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:21,008 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:21,008 | main.py->isAngry():30 | WARNING | True
-2022-07-23 23:31:21,009 | server.py->isAngry():28 | WARNING | 1
-2022-07-23 23:31:21,009 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:21] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:21,511 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:21] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:21,511 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:21,512 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:21,512 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:21,512 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:21] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:22,014 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:22] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:22,014 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:22,015 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:22,015 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:22,015 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:22] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:22,537 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:22] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:22,539 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:22,539 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:22,539 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:22,539 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:22] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:23,025 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:23] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:23,025 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:23,025 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:23,025 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:23,026 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:23] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:23,706 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:23] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:23,709 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:23,709 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:23,710 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:23,710 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:23] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:24,043 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:24] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:24,043 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:24,044 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:24,044 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:24,044 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:24] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:24,540 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:24] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:24,541 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:24,541 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:24,541 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:24,542 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:24] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:25,040 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
-2022-07-23 23:31:25,040 | server.py->returnSummary():40 | WARNING | {'emotion1': 'happy', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Applications'}
-2022-07-23 23:31:25,040 | server.py->returnSummary():42 | WARNING | Application Emotion Retreiving
-2022-07-23 23:31:25,044 | data.py->summarizeApps():89 | WARNING | Emotions Sent: [[0.0, 0.04, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.22, 0.05, 0.02]]
-2022-07-23 23:31:25,045 | data.py->summarizeApps():101 | WARNING | App Emotions: {'Electron': 0.38}
-2022-07-23 23:31:25,045 | data.py->summarizeApps():102 | WARNING | App Times: {'Electron': 18}
-2022-07-23 23:31:25,045 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:25] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:25,045 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:25] "POST /summarize HTTP/1.1" 200 -
-2022-07-23 23:31:25,046 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:25,046 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:25,046 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:25,047 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:25] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:25,548 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:25,549 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:25] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:25,549 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:25,549 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:25,549 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:25] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:26,073 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:26] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:26,076 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:26,077 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:26,077 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:26,077 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:26] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:26,559 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:26] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:26,559 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:26,560 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:26,560 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:26,560 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:26] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:27,067 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:27] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:27,068 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:27,068 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:27,068 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:27,068 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:27] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:27,258 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
-2022-07-23 23:31:27,258 | server.py->returnSummary():40 | WARNING | {'emotion1': 'happy', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():43 | WARNING | Emotions Sent: []
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_26
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_27
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():56 | WARNING | Time Created 23:18:26 - 23:18:27
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0225, TotalEQ: 0.0225
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_28
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_28
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():56 | WARNING | Time Created 23:18:28 - 23:18:28
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0225, TotalEQ: 0.045
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_29
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_29
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():56 | WARNING | Time Created 23:18:29 - 23:18:29
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0225, TotalEQ: 0.0675
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_30
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_30
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():56 | WARNING | Time Created 23:18:30 - 23:18:30
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0225, TotalEQ: 0.09
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_31
-2022-07-23 23:31:27,260 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_18_31
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():56 | WARNING | Time Created 23:18:31 - 23:18:31
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0225, TotalEQ: 0.11249999999999999
-2022-07-23 23:31:27,260 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'23:18:26 - 23:18:27': 0.2, '23:18:28 - 23:18:28': 0.2, '23:18:29 - 23:18:29': 0.2, '23:18:30 - 23:18:30': 0.2, '23:18:31 - 23:18:31': 0.2}
-2022-07-23 23:31:27,261 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:27] "POST /summarize HTTP/1.1" 200 -
-2022-07-23 23:31:27,566 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:27] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:27,567 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:27,567 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:27,567 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:27,567 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:27] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:28,228 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:28] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:28,231 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:28,232 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:28,233 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:28,233 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:28] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:28,577 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:28] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:28,578 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:28,578 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:28,578 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:28,578 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:28] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:29,082 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:29] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:29,082 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:29,083 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:29,083 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:29,083 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:29] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:29,587 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:29] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:29,588 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:29,588 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:29,589 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:29,589 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:29] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:30,091 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:30] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:30,092 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:30,092 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:30,092 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:30,092 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:30] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:30,595 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:30] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:30,595 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:30,597 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:30,597 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:30,602 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:30] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:31,098 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:31] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:31,098 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:31,099 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:31,099 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:31,099 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:31] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:31,604 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:31] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:31,605 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:31,605 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:31,605 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:31,606 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:31] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:32,108 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:32] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:32,108 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:32,108 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:32,109 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:32,109 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:32] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:32,615 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:32] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:32,616 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:32,616 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:32,617 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:32,617 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:32] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:33,114 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:33] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:33,115 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:33,115 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:33,115 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:33,115 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:33] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:33,807 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:33] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:33,808 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:33,808 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:33,809 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:33,809 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:33] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:34,126 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:34] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:34,126 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:34,126 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:34,126 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:34,127 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:34] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:34,630 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:34] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:34,630 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:34,630 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:34,631 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:34,631 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:34] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:35,139 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:35] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:35,140 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:35,141 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:35,141 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:35,141 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:35] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:35,642 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:35] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:35,642 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:35,642 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:35,643 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:35,643 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:35] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:36,142 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:36] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:36,143 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:36,143 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:36,144 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:36,144 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:36] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:36,645 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:36] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:36,645 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:36,645 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:36,646 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:36,646 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:36] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:37,163 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:37] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:37,167 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:37,167 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:37,167 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:37,167 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:37] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:37,652 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:37] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:37,653 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:37,653 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:37,653 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:37,653 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:37] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:38,164 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:38] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:38,169 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:38,170 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:38,170 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:38,170 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:38] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:38,660 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:38] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:38,660 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:38,661 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:38,661 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:38,661 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:38] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:39,166 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:39] "POST /takeimage HTTP/1.1" 200 -
-2022-07-23 23:31:39,167 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
-2022-07-23 23:31:39,168 | main.py->isAngry():30 | WARNING | False
-2022-07-23 23:31:39,168 | server.py->isAngry():28 | WARNING | 0
-2022-07-23 23:31:39,169 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [23/Jul/2022 23:31:39] "POST /isangry HTTP/1.1" 200 -
-2022-07-23 23:31:53,948 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:54,125 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:54,617 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:54,788 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:54,968 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:55,383 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:55,555 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:55,729 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:55,941 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:56,133 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:59,042 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:59,221 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:59,392 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:59,604 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:31:59,804 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,000 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,199 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,403 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,599 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,801 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:00,997 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:01,196 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:01,404 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:01,598 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:01,800 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:01,997 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:02,192 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:02,405 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:02,596 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:02,799 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:12,405 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:12,581 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:12,754 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:12,960 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:13,158 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:13,357 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:13,563 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:13,762 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:13,958 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
-2022-07-23 23:32:14,155 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
+2022-07-24 00:22:50,740 | server.py-><module>():6 | WARNING | Created Flask and Request
+2022-07-24 00:22:50,740 | server.py-><module>():8 | WARNING | Imported JSON
+2022-07-24 00:22:50,906 | server.py-><module>():10 | WARNING | Imported Camera
+2022-07-24 00:22:55,221 | server.py-><module>():12 | WARNING | Imported Main
+2022-07-24 00:22:55,221 | server.py-><module>():14 | WARNING | Imported Sys
+2022-07-24 00:22:55,222 | server.py-><module>():20 | WARNING | Setup Flask
+2022-07-24 00:22:55,222 | main.py->__init__():16 | WARNING | Created Main Object
+2022-07-24 00:22:55,448 | main.py->__init__():20 | WARNING | Created Camera Object
+2022-07-24 00:22:55,771 | main.py->__init__():23 | WARNING | Created FER Object
+2022-07-24 00:22:55,773 | main.py->__init__():26 | WARNING | Created Data Object
+2022-07-24 00:22:55,783 | server.py-><module>():71 | WARNING | Ready to accept
+2022-07-24 00:22:55,784 | _internal.py->_log():225 | INFO |  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-07-24 00:23:04,728 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:04,728 | server.py->returnSummary():40 | WARNING | {'emotion1': 'angry', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_24
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_28
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:24 - 23:57:28
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.3900000000000001, emotions: [[0.42, 0.12, 0.3, 0.08, 0.05, 0.07, 0.13, 0.06, 0.06, 0.1]]
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.12636363636363637, TotalEQ: 0.12636363636363637, counter: 11
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_28
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_32
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:28 - 23:57:32
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.2500000000000002, emotions: [[0.1, 0.05, 0.09, 0.28, 0.31, 0.06, 0.06, 0.08, 0.16, 0.06]]
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.11363636363636366, TotalEQ: 0.24000000000000005, counter: 11
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_32
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_35
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:32 - 23:57:35
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.81, emotions: [[0.1, 0.15, 0.19, 0.26, 0.18, 0.14, 0.11, 0.09, 0.21, 0.38]]
+2022-07-24 00:23:04,730 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.16454545454545455, TotalEQ: 0.4045454545454546, counter: 11
+2022-07-24 00:23:04,730 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_36
+2022-07-24 00:23:04,731 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_39
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:36 - 23:57:39
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():61 | WARNING | time emotion: 3.8699999999999997, emotions: [[0.35, 0.56, 0.47, 0.63, 0.48, 0.38, 0.32, 0.39, 0.2, 0.09]]
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.3518181818181818, TotalEQ: 0.7563636363636363, counter: 11
+2022-07-24 00:23:04,731 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_40
+2022-07-24 00:23:04,731 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_43
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:40 - 23:57:43
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.31, emotions: [[0.01, 0.06, 0.05, 0.05, 0.04, 0.01, 0.01, 0.01, 0.01, 0.06]]
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.028181818181818183, TotalEQ: 0.7845454545454545, counter: 11
+2022-07-24 00:23:04,731 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'23:57:24 - 23:57:28': 0.16106604866743918, '23:57:28 - 23:57:32': 0.14484356894553885, '23:57:32 - 23:57:35': 0.20973348783314022, '23:57:36 - 23:57:39': 0.44843568945538814, '23:57:40 - 23:57:43': 0.03592120509849363}
+2022-07-24 00:23:04,731 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:04] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:09,259 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:09,260 | server.py->returnSummary():40 | WARNING | {'emotion1': 'happy', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:09,262 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_24
+2022-07-24 00:23:09,262 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_28
+2022-07-24 00:23:09,262 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:24 - 23:57:28
+2022-07-24 00:23:09,263 | data.py->summarizeTimes():61 | WARNING | time emotion: 2.34, emotions: [[0.0, 0.0, 0.0, 0.4, 0.38, 0.38, 0.2, 0.37, 0.27, 0.34]]
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.2127272727272727, TotalEQ: 0.2127272727272727, counter: 11
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_28
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_32
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:28 - 23:57:32
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.72, emotions: [[0.2, 0.22, 0.0, 0.0, 0.0, 0.16, 0.42, 0.2, 0.0, 0.52]]
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.15636363636363637, TotalEQ: 0.3690909090909091, counter: 11
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_32
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_35
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:32 - 23:57:35
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.39, emotions: [[0.32, 0.0, 0.07, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.035454545454545454, TotalEQ: 0.40454545454545454, counter: 11
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_36
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_39
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:36 - 23:57:39
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.44, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05, 0.39]]
+2022-07-24 00:23:09,264 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.04, TotalEQ: 0.4445454545454545, counter: 11
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_40
+2022-07-24 00:23:09,264 | data.py->convertToTime():26 | WARNING | 2022_07_23_23_57_43
+2022-07-24 00:23:09,265 | data.py->summarizeTimes():55 | WARNING | Time Created 23:57:40 - 23:57:43
+2022-07-24 00:23:09,265 | data.py->summarizeTimes():61 | WARNING | time emotion: 8.379999999999999, emotions: [[0.96, 0.69, 0.84, 0.73, 0.82, 0.93, 0.95, 0.92, 0.92, 0.62]]
+2022-07-24 00:23:09,265 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.7618181818181817, TotalEQ: 1.2063636363636363, counter: 11
+2022-07-24 00:23:09,265 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'23:57:24 - 23:57:28': 0.1763376036171816, '23:57:28 - 23:57:32': 0.12961567445365488, '23:57:32 - 23:57:35': 0.029389600602863605, '23:57:36 - 23:57:39': 0.033157498116051246, '23:57:40 - 23:57:43': 0.6314996232102487}
+2022-07-24 00:23:09,265 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:09] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:12,557 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:12] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:12,557 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:12,561 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:12,561 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:12,561 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:12] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:13,061 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:13] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:13,062 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:13,062 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:13,062 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:13,062 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:13] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:13,564 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:13] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:13,565 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:13,565 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:13,565 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:13,566 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:13] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:14,070 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:14] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:14,071 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:14,071 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:14,071 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:14,071 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:14] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:14,577 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:14] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:14,580 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:14,580 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:14,580 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:14,580 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:14] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:15,080 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:15] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:15,080 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:15,081 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:15,081 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:15,081 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:15] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:15,584 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:15] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:15,585 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:15,586 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:15,586 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:15,587 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:15] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:16,090 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:16] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:16,091 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:16,095 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:16,095 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:16,096 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:16] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:16,593 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:16] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:16,593 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:16,593 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:16,594 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:16,594 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:16] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:17,096 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:17] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:17,096 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:17,097 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:17,097 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:17,097 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:17] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:17,597 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:17] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:17,598 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:17,598 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:17,598 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:17,599 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:17] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:17,641 | server.py->endSession():49 | WARNING | END SESSION
+2022-07-24 00:23:17,644 | data.py->endSession():114 | WARNING | uploaded session data to csv
+2022-07-24 00:23:17,645 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:17] "POST /endsession HTTP/1.1" 200 -
+2022-07-24 00:23:20,627 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:20] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:20,627 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:20,628 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:20,628 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:20,628 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:20] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:21,132 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:21] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:21,133 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:21,133 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:21,133 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:21,134 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:21] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:21,636 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:21] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:21,636 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:21,637 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:21,637 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:21,637 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:21] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:22,141 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:22] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:22,141 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:22,142 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:22,142 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:22,143 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:22] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:22,665 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:22] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:22,666 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:22,667 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:22,667 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:22,667 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:22] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:23,150 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:23] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:23,150 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:23,151 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:23,151 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:23,151 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:23] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:23,689 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:23] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:23,689 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:23,690 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:23,690 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:23,690 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:23] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:24,159 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:24] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:24,160 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:24,160 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:24,160 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:24,160 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:24] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:24,672 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:24] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:24,678 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:24,679 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:24,680 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:24,680 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:24] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:25,167 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:25,167 | main.py->isAngry():30 | WARNING | True
+2022-07-24 00:23:25,167 | server.py->isAngry():28 | WARNING | 1
+2022-07-24 00:23:25,167 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:25] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:25,168 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:25] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:25,669 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:25] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:25,669 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:25,670 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:25,670 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:25,670 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:25] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:26,174 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:26] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:26,174 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:26,175 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:26,175 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:26,176 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:26] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:26,687 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:26,687 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:26] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:26,688 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:26,688 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:26,688 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:26] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:27,184 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:27] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:27,185 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:27,185 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:27,185 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:27,185 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:27] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:27,693 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:27] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:27,694 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:27,694 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:27,694 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:27,694 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:27] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:28,194 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:28] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:28,195 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:28,195 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:28,195 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:28,195 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:28] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:28,694 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:28] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:28,694 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:28,695 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:28,695 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:28,695 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:28] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:29,219 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:29] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:29,220 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:29,220 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:29,220 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:29,220 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:29] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:29,993 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:29] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:29,994 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:29,995 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:29,997 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:29,997 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:29] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:30,206 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:30] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:30,207 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:30,207 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:30,207 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:30,208 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:30] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:30,714 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:30] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:30,717 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:30,718 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:30,718 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:30,718 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:30] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:31,217 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:31] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:31,217 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:31,218 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:31,218 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:31,218 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:31] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:31,719 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:31] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:31,719 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:31,719 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:31,720 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:31,720 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:31] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:32,224 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:32] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:32,224 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:32,224 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:32,225 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:32,225 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:32] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:32,726 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:32] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:32,726 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:32,727 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:32,727 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:32,727 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:32] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:33,231 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:33] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:33,232 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:33,232 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:33,232 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:33,233 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:33] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:33,752 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:33] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:33,758 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:33,759 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:33,759 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:33,760 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:33] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:34,238 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:34] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:34,239 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:34,239 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:34,239 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:34,239 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:34] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:34,785 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:34] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:34,786 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:34,786 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:34,786 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:34,786 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:34] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:35,247 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:35] "POST /takeimage HTTP/1.1" 200 -
+2022-07-24 00:23:35,248 | server.py->isAngry():26 | WARNING | CHECKING IF ANGRY
+2022-07-24 00:23:35,248 | main.py->isAngry():30 | WARNING | False
+2022-07-24 00:23:35,248 | server.py->isAngry():28 | WARNING | 0
+2022-07-24 00:23:35,248 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:35] "POST /isangry HTTP/1.1" 200 -
+2022-07-24 00:23:35,339 | server.py->endSession():49 | WARNING | END SESSION
+2022-07-24 00:23:35,340 | data.py->endSession():114 | WARNING | uploaded session data to csv
+2022-07-24 00:23:35,341 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:35] "POST /endsession HTTP/1.1" 200 -
+2022-07-24 00:23:40,441 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:40,441 | server.py->returnSummary():40 | WARNING | {'emotion1': 'angry', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():61 | WARNING | time emotion: 5.500000000000001, emotions: [[0.67, 0.7, 0.5, 0.63, 0.53, 0.4, 0.6, 0.65, 0.82]]
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.55, TotalEQ: 0.55, counter: 10
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():61 | WARNING | time emotion: 6.69, emotions: [[0.76, 0.81, 0.79, 0.73, 0.77, 0.73, 0.81, 0.78, 0.51]]
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.669, TotalEQ: 1.219, counter: 10
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.4100000000000001, emotions: [[0.7, 0.65, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:40,443 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.14100000000000001, TotalEQ: 1.36, counter: 10
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:40,443 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.02, emotions: [[0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0]]
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.002, TotalEQ: 1.362, counter: 10
+2022-07-24 00:23:40,444 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:40,444 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.62, emotions: [[0.0, 0.0, 0.15, 0.28, 0.27, 0.25, 0.27, 0.2, 0.2]]
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.162, TotalEQ: 1.524, counter: 10
+2022-07-24 00:23:40,444 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.3608923884514436, '00:23:21 - 00:23:24': 0.4389763779527559, '00:23:24 - 00:23:27': 0.09251968503937008, '00:23:28 - 00:23:31': 0.0013123359580052493, '00:23:31 - 00:23:34': 0.1062992125984252}
+2022-07-24 00:23:40,444 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:40] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:45,289 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:45,289 | server.py->returnSummary():40 | WARNING | {'emotion1': 'sad', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():61 | WARNING | time emotion: 2.4099999999999997, emotions: [[0.11, 0.12, 0.38, 0.27, 0.36, 0.53, 0.28, 0.26, 0.1]]
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.24099999999999996, TotalEQ: 0.24099999999999996, counter: 10
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.18, emotions: [[0.1, 0.05, 0.12, 0.14, 0.1, 0.13, 0.08, 0.11, 0.35]]
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.118, TotalEQ: 0.359, counter: 10
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.53, emotions: [[0.2, 0.21, 0.06, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]]
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.053000000000000005, TotalEQ: 0.412, counter: 10
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.21999999999999997, emotions: [[0.0, 0.03, 0.01, 0.01, 0.04, 0.03, 0.06, 0.02, 0.02]]
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.022, TotalEQ: 0.434, counter: 10
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:45,291 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():61 | WARNING | time emotion: 5.13, emotions: [[0.05, 0.02, 0.77, 0.64, 0.73, 0.7, 0.67, 0.75, 0.8]]
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.513, TotalEQ: 0.9470000000000001, counter: 10
+2022-07-24 00:23:45,291 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.2544878563885955, '00:23:21 - 00:23:24': 0.12460401267159449, '00:23:24 - 00:23:27': 0.0559662090813094, '00:23:28 - 00:23:31': 0.023231256599788804, '00:23:31 - 00:23:34': 0.5417106652587117}
+2022-07-24 00:23:45,292 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:45] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:48,453 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:48,453 | server.py->returnSummary():40 | WARNING | {'emotion1': 'happy', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:48,456 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:48,456 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:48,456 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:48,457 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:48,457 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.0, counter: 10
+2022-07-24 00:23:48,457 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:48,457 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:48,457 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:48,458 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:48,458 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.0, counter: 10
+2022-07-24 00:23:48,458 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:48,458 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:48,459 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:48,459 | data.py->summarizeTimes():61 | WARNING | time emotion: 6.700000000000001, emotions: [[0.0, 0.0, 0.76, 0.99, 0.99, 0.99, 0.99, 0.99, 0.99]]
+2022-07-24 00:23:48,459 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.6700000000000002, TotalEQ: 0.6700000000000002, counter: 10
+2022-07-24 00:23:48,459 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:48,460 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:48,460 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:48,460 | data.py->summarizeTimes():61 | WARNING | time emotion: 8.74, emotions: [[1.0, 0.96, 0.99, 0.99, 0.96, 0.97, 0.91, 0.98, 0.98]]
+2022-07-24 00:23:48,460 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.874, TotalEQ: 1.544, counter: 10
+2022-07-24 00:23:48,460 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:48,460 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:48,461 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:48,461 | data.py->summarizeTimes():61 | WARNING | time emotion: 1.93, emotions: [[0.95, 0.98, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:48,461 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.193, TotalEQ: 1.737, counter: 10
+2022-07-24 00:23:48,461 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.0, '00:23:21 - 00:23:24': 0.0, '00:23:24 - 00:23:27': 0.38572251007484176, '00:23:28 - 00:23:31': 0.5031663788140471, '00:23:31 - 00:23:34': 0.1111111111111111}
+2022-07-24 00:23:48,462 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:48] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:54,458 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:54,460 | server.py->returnSummary():40 | WARNING | {'emotion1': 'surprise', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.01, emotions: [[0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.001, TotalEQ: 0.001, counter: 10
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.05, emotions: [[0.0, 0.0, 0.01, 0.01, 0.01, 0.0, 0.0, 0.02, 0.0]]
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.005, TotalEQ: 0.006, counter: 10
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.06, emotions: [[0.0, 0.0, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.006, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:54,462 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,462 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,463 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:54,463 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:54,463 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:54,463 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,463 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,463 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.08333333333333333, '00:23:21 - 00:23:24': 0.4166666666666667, '00:23:24 - 00:23:27': 0.5, '00:23:28 - 00:23:31': 0.0, '00:23:31 - 00:23:34': 0.0}
+2022-07-24 00:23:54,464 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:54] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:54,890 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:54,890 | server.py->returnSummary():40 | WARNING | {'emotion1': 'surprise', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:54,892 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:54,892 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.01, emotions: [[0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.001, TotalEQ: 0.001, counter: 10
+2022-07-24 00:23:54,892 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:54,892 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.05, emotions: [[0.0, 0.0, 0.01, 0.01, 0.01, 0.0, 0.0, 0.02, 0.0]]
+2022-07-24 00:23:54,892 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.005, TotalEQ: 0.006, counter: 10
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.06, emotions: [[0.0, 0.0, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.006, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:54,893 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.0, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.0, TotalEQ: 0.012, counter: 10
+2022-07-24 00:23:54,893 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.08333333333333333, '00:23:21 - 00:23:24': 0.4166666666666667, '00:23:24 - 00:23:27': 0.5, '00:23:28 - 00:23:31': 0.0, '00:23:31 - 00:23:34': 0.0}
+2022-07-24 00:23:54,893 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:54] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:23:58,831 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:23:58,831 | server.py->returnSummary():40 | WARNING | {'emotion1': 'fear', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Timings'}
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_17
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_20
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:17 - 00:23:20
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.56, emotions: [[0.05, 0.07, 0.09, 0.07, 0.09, 0.06, 0.07, 0.05, 0.01]]
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.05600000000000001, TotalEQ: 0.05600000000000001, counter: 10
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_21
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:21 - 00:23:24
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.44999999999999996, emotions: [[0.02, 0.04, 0.05, 0.07, 0.07, 0.04, 0.04, 0.06, 0.06]]
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.045, TotalEQ: 0.101, counter: 10
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_24
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_27
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:24 - 00:23:27
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.15, emotions: [[0.06, 0.03, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.015, TotalEQ: 0.116, counter: 10
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_28
+2022-07-24 00:23:58,833 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:58,833 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:28 - 00:23:31
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.01, emotions: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0]]
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.001, TotalEQ: 0.117, counter: 10
+2022-07-24 00:23:58,834 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_31
+2022-07-24 00:23:58,834 | data.py->convertToTime():26 | WARNING | 2022_07_24_00_23_34
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():55 | WARNING | Time Created 00:23:31 - 00:23:34
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():61 | WARNING | time emotion: 0.32, emotions: [[0.0, 0.0, 0.08, 0.07, 0.0, 0.05, 0.07, 0.05, 0.0]]
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():64 | WARNING | Time Emotion: 0.032, TotalEQ: 0.14900000000000002, counter: 10
+2022-07-24 00:23:58,834 | data.py->summarizeTimes():67 | WARNING | Calculated Time Emotions: {'00:23:17 - 00:23:20': 0.37583892617449666, '00:23:21 - 00:23:24': 0.3020134228187919, '00:23:24 - 00:23:27': 0.1006711409395973, '00:23:28 - 00:23:31': 0.006711409395973153, '00:23:31 - 00:23:34': 0.2147651006711409}
+2022-07-24 00:23:58,834 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:23:58] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:24:01,489 | server.py->returnSummary():34 | WARNING | RETURNING SUMMARY
+2022-07-24 00:24:01,495 | server.py->returnSummary():40 | WARNING | {'emotion1': 'fear', 'emotion2': 'none', 'emotion3': 'none', 'comparing': 'Applications'}
+2022-07-24 00:24:01,495 | server.py->returnSummary():42 | WARNING | Application Emotion Retreiving
+2022-07-24 00:24:01,501 | data.py->summarizeApps():89 | WARNING | Emotions Sent: [[0.05, 0.07, 0.09, 0.07, 0.09, 0.06, 0.07, 0.05, 0.01, 0.02, 0.04, 0.05, 0.07, 0.07, 0.04, 0.04, 0.06, 0.06, 0.06, 0.03, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.08, 0.07, 0.0, 0.05, 0.07, 0.05, 0.0, 0.06]]
+2022-07-24 00:24:01,503 | data.py->summarizeApps():101 | WARNING | App Emotions: {'Electron': 1.550000000000001}
+2022-07-24 00:24:01,504 | data.py->summarizeApps():102 | WARNING | App Times: {'Electron': 46}
+2022-07-24 00:24:01,504 | _internal.py->_log():225 | INFO | 127.0.0.1 - - [24/Jul/2022 00:24:01] "POST /summarize HTTP/1.1" 200 -
+2022-07-24 00:24:04,161 | server.py->kill():59 | WARNING | Closed Server
+2022-07-24 00:24:05,437 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
+2022-07-24 00:24:05,590 | main.py->analyze():49 | WARNING | Empty Data List Being Sent
