@@ -5,11 +5,12 @@ import pandas as pd
 from datetime import datetime
 import time, logging
 import logging.config
-import sys
 logger = logging.getLogger(__name__)
 
-
+#Main Function that controls the rest of the backend server
 class Main:
+
+    #Initializes all different modules
     def __init__(self):
         self.now = datetime.now()
         self.analyzedData = pd.DataFrame
@@ -26,19 +27,24 @@ class Main:
         logger.warning("Created Data Object")
         self.data.loadData("backend/data.csv")
 
+    #Checks if user is angry
     def isAngry(self):
         logger.warning(self.data.isAngry())
         return self.data.isAngry()
 
+    #Summarizes Application Data
     def summarizeApps(self, emotion1, emotion2, emotion3):
         return self.data.summarizeApps(emotion1, emotion2, emotion3)
 
+    #Summarizes session data by time
     def summarizeTimes(self, emotion1, emotion2, emotion3):
         return self.data.summarizeTimes(emotion1, emotion2, emotion3)
 
+    #Ends session
     def endSession(self):
         self.data.endSession()
 
+    #Analyzes user and records data
     def analyze(self):
         data = []
         photo = self.cam.takePhoto()
@@ -62,9 +68,11 @@ class Main:
         self.data.writeData("backend/data.csv")
         return data
 
+    #Writes data to csv
     def writeData(self):
         self.data.writeData("backend/data.csv")
 
+#Testing main function
 if __name__ == "__main__":
     import loggerScript
     logger = logging.getLogger(__name__)

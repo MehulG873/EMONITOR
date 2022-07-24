@@ -8,36 +8,38 @@ import matplotlib.pyplot as plt
 import numpy as np
 logger = logging.getLogger(__name__)
 
+#Handles all data processing for backend server
 class Data:
+
+    #Initialization function that creates two dataframes
     def __init__(self):
         self.df = pd.DataFrame(columns=["time", "application", "angry", "disgust", "fear", "happy", "sad", "surprise"])
         self.sessionDF = pd.DataFrame(columns=["time", "application", "angry", "disgust", "fear", "happy", "sad", "surprise"])
 
+    #Loads data from a filename
     def loadData(self, filename):
         self.df = pd.read_csv(filename)
         self.df = self.df.iloc[: , 1:]
-        # logger.warning("read data from csv")
     
+    #Writes data to a csv using filename argument
     def writeData(self, filename):
         self.df.to_csv(filename)
         logger.info("wrote data to csv")
 
+    #Convert unformatted csv date to a readable date.
     def convertToTime(self, unFormattedDate):
         logger.warning(unFormattedDate)
         unFormattedDate = unFormattedDate.split("_")
         formattedDate = ""
-        """ formattedDate += unFormattedDate[1]+"/"
-        formattedDate += unFormattedDate[2]+"/"
-        formattedDate += unFormattedDate[0]+" " """
         formattedDate += unFormattedDate[3]+":"
         formattedDate += unFormattedDate[4]+":"
         formattedDate += unFormattedDate[5]+""
         return formattedDate
         
 
+    #Takes data and summarizes the data by time. Requires 3 emotions to analyze including none
     def summarizeTimes(self, emotion1, emotion2, emotion3):
         data = pd.read_csv("backend/sessionData.csv")
-        timesRan = list(data['time'])
         timeEmotion = {}
         emotions=[]
         logger.warning("Emotions Sent: {}".format(emotions))
@@ -67,11 +69,7 @@ class Data:
         logger.warning("Calculated Time Emotions: {}".format(timeEmotion))
         return timeEmotion
 
-
-        counter = 0
-        totalEmotionQuotient = 0
-        #total data for each app
-
+    #Summarizes data by application. Requires three different emotions
     def summarizeApps(self, emotion1, emotion2, emotion3):
         data = pd.read_csv("backend/sessionData.csv")
         appsFocused = list(data['application'])
@@ -89,6 +87,7 @@ class Data:
         logger.warning("Emotions Sent: {}".format(emotions))
         counter = 0
         totalEmotionQuotient = 0
+
         #total data for each app
         for app in appsFocused:
             if not(app in appEmotion):
@@ -100,6 +99,7 @@ class Data:
             counter+=1
         logger.warning("App Emotions: {}".format(appEmotion))
         logger.warning("App Times: {}".format(appTimes))
+
         #get proper data for each app
         for app in list(appEmotion.keys()):
             appEmotion[app]=(appEmotion[app]/appTimes[app])
@@ -109,13 +109,14 @@ class Data:
         appEmotion = {k: v for k, v in sorted(appEmotion.items(), key=lambda item: item[1])}
         return appEmotion
                
+    #Ends the current session and resets the pandas dataframe
     def endSession(self):
         self.sessionDF.to_csv("backend/sessionData.csv")
         logger.warning("uploaded session data to csv")
         self.sessionDF = pd.DataFrame(columns=["time", "application", "angry", "disgust", "fear", "happy", "sad", "surprise"])
 
+    #Generates a graph for the history tab
     def generateGraph(self):
-        my_dpi = 192
         self.history = pd.read_csv("History.csv")
         emotions = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise']
         colors = ['red', 'green', 'purple', 'yellow', 'blue', 'white']
@@ -138,6 +139,7 @@ class Data:
         ax.patch.set_alpha(0)
         plt.savefig("history.svg")
 
+    #Checks if the person has been consitently angry and returns a boolean
     def isAngry(self):
         for i, row in self.df.tail(3).iterrows():
             if row['angry'] > 0.9:
@@ -146,6 +148,7 @@ class Data:
                 return False
         return True
 
+    #Adds a row to all the necessary dataframes.
     def addRow(self, data):
         data = list(data.values())
         now = datetime.now()
@@ -157,10 +160,12 @@ class Data:
         self.df.loc[len(self.df.index)] = data
         self.sessionDF.loc[len(self.sessionDF.index)] = data
 
+    #Returns all the emotions in a list
     def getEmotions(self):
         return self.df.iloc[-1].to_list()
 
 
+#Testing as main to summarize times
 if __name__ == "__main__":
     d = Data()
     d.loadData("backend/data.csv")

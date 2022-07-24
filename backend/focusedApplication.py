@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 
 """Find the currently active window."""
-
 import logging
 import sys
-
 logger = logging.getLogger(__name__)
 
-
+#Collects the active window to determine proper analyzers
 def get_active_window():
     """
     Get the currently active window.

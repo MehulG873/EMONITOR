@@ -10,6 +10,8 @@ logger = logging.getLogger(__name__)
 
 #define class Camera for capturing images
 class Camera:
+
+    #Init Function
     def __init__ (self):
         self.now = datetime.now()
         self.dt_string = self.now.strftime("%Y_%m_%d_%H_%M_%S")
@@ -36,9 +38,7 @@ class Camera:
             self.now = datetime.now()
             result, image = self.cam.read()
             picTime = self.now.strftime("%H:%M:%S")
-            print("Retaking Image")
         # saving image in local storage
-        print("Wrote image at: " + self.directory + "/{}.jpg".format(picTime))
         cv.imwrite(self.directory + "/{}.jpg".format(picTime), image)
         return self.directory + "/{}.jpg".format(picTime)
     
