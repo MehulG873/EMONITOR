@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Initialize Style Sheets -->
         <link href="Styles/history.css" rel="stylesheet">
         <link href="Styles/utility.css" rel = "stylesheet">        
+        <!-- Script to interact with HTML Content -->
         <script>        
+            //Set up Electron
             const electron = require('electron');
             const {ipcRenderer} = electron;
 
-            function record(){
-                ipcRenderer.send("recorder:start");
-            }
+            //Function to open up Settings
             function openSettings(){
                 ipcRenderer.send("open:settings");
             }
         </script>
     </head>
+    <!-- Main Body -->
     <body>
+        <!-- Title -->
         <h1>History</h1>
+        <!-- Graph Image -->
         <img id = "Graph" src = "../history.svg">
+        <!-- Menu Bar -->
         <div id= "menuBar"></div>
         <div class="grid" id="menuButtonGrid">            
             <button class="blackMenuButton" id = "homeButton" onclick ="window.location.href='Home.html'">
@@ -33,6 +38,7 @@
                 <span class ="buttonText">History</span>
             </button>
         </div>
+        <!-- Settings Button -->
         <button id ="settingsButton" onclick = "openSettings()">
             <img src="Images/settings.png"/>
         </button>

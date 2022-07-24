@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Initialize Style Sheets -->
         <link href="Styles/settings.css" rel="stylesheet">
         <link href="Styles/utility.css" rel = "stylesheet">        
+        <!-- Script to interact with HTML Content -->
         <script>        
-            // const electron = require('electron');
-            // const {ipcRenderer} = electron;
+            //set up electron
+            const electron = require('electron');
+            const {ipcRenderer} = electron;
 
+            //create new style
             const style = document.createElement('style');
 
+            //Show Live Webcam Stream
             document.addEventListener("DOMContentLoaded", () => {
                 var video = document.getElementById("videoStream");
                 if (navigator.mediaDevices.getUserMedia) {
@@ -24,11 +29,8 @@
                 navigator.mediaDevices.enumerateDevices().then(gotDevices);
             });
 
-            console.log(document.getElementsByTagName("div"));
-
+            //Get Media Devices Available
             function gotDevices(mediaDevices) {
-                console.log(videoSelection)
-                // select.appendChild(document.createElement('option'));
                 let count = 1;
                 mediaDevices.forEach(mediaDevice => {
                     if (mediaDevice.kind === 'videoinput') {
@@ -50,6 +52,7 @@
                     }
                 });
                 count--;
+                //Add Styles
                 for(let i =0; i<count; i++){
                     style.textContent += `
                         #videoSelection:hover #${videoSelection.children[i].id}{
@@ -81,20 +84,16 @@
             }
         </script>
     </head>
+    <!-- Main Body -->
     <body>
+        <!-- Title -->
         <h1 id="Settings">Settings</h1>
-        <!-- <p style = "position:absolute; top: 0px;" >Record from</p>
-        <input type="text" value="12:00AM" style ="position: absolute; top:0px; left: 400px; ">
-        <p>to</p>
-        <input type="text" value="12:00 PM">
-        <p>daily</p> -->
+        <!-- Camera Switch -->
         <p id="cameraText">Camera: </p>
         <input type="checkbox" id="switch" />
         <label for="switch">Toggle</label>
+        <!-- Webacam Stream -->
         <div id = "videoStreamOutline" ></div>
         <video autoplay id="videoStream"></video>
-        <div id="switchBackground">
-            <button id ="switch"></button>
-        </div>
     </body>
 </html>

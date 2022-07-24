@@ -2,13 +2,17 @@
 <html lang="en">
   
 <head>
+        <!-- Initialize Style Sheets -->
         <link href="Styles/summary.css" rel="stylesheet">
-        <link href="Styles/utility.css" rel = "stylesheet">        
+        <link href="Styles/utility.css" rel = "stylesheet">       
+        <!-- Script to interact with HTML -->
         <script>        
+            // Set up Electron 
             const electron = require('electron');
             const {ipcRenderer} = electron;
             var comparing = "Applications";
 
+            //Select Option for Dropdowns
             function selectOpt(number, option){
                 let imgList= document.querySelectorAll("img");
                 let originalImg = imgList[7+number*8];
@@ -16,10 +20,12 @@
                 originalImg.src = selectionImg.src;
             }
 
+            //Function for opening Settings
             function openSettings(){
                 ipcRenderer.send("open:settings");
             }
 
+            //Switch which to compare: Applications/Timings
             function switchCompare(){
                 if (comparing == "Applications"){
                     comparing = "Timings";
@@ -30,22 +36,7 @@
                 console.log(comparing)
             }
 
-            ipcRenderer.on("emotion:summary", function(e, keys, values){
-                counter = 0;
-                for (var key in keys){
-                    counter++;
-                    var text = document.getElementById(`text${counter}`)
-                    text.innerText = keys[key];
-                }
-                counter=0;
-                for (var value in values){
-                    counter++;
-                    var bar = document.getElementById(`bar${counter}`)
-                    bar.style.width = `${964*values[value]}px`
-                }
-
-            })
-
+            //Send Emotions on Drop Downs to be analyzed.
             function sendEmotions(){
                 emotion1 = document.querySelectorAll("img")[7].src
                 if(emotion1!=""){
@@ -77,11 +68,31 @@
                 console.log(emotion3)
                 ipcRenderer.send("summary:emotions", emotion1, emotion2, emotion3, comparing)
             }
+
+            //Listener for recieving summary data
+            ipcRenderer.on("emotion:summary", function(e, keys, values){
+                counter = 0;
+                for (var key in keys){
+                    counter++;
+                    var text = document.getElementById(`text${counter}`)
+                    text.innerText = keys[key];
+                }
+                counter=0;
+                for (var value in values){
+                    counter++;
+                    var bar = document.getElementById(`bar${counter}`)
+                    bar.style.width = `${964*values[value]}px`
+                }
+
+            })
+
         </script>
     </head>
+    <!-- Main Body -->
     <body>
+        <!-- Title -->
         <h1>Summary</h1>
-        <div id= "menuBar"></div>
+        <!-- Grid for each Graph Bar -->
         <div id = "graphBarGrid">
             <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar2" style = "width: 186px;"></div>
@@ -89,6 +100,7 @@
             <div class="graphBar" id = "bar4" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar5" style = "width: 186px;"></div>
         </div>
+        <!-- Text for Applications/Times -->
         <div id = "textGrid">
             <p class = "appText" id = "text1">Application #1</p>
             <p class = "appText" id = "text2">Application #2</p>
@@ -96,6 +108,7 @@
             <p class = "appText" id = "text4">Application #4</p>
             <p class = "appText" id = "text5">Application #5</p>
         </div>
+        <!-- Lines For Text Table -->
         <div type = "grid" id= "lineGrid">
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
@@ -104,11 +117,13 @@
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
         </div>
+        <div id = "graphTextLine"></div>
+        <!-- Switch for Comparing between Application/Times -->
         <input type="checkbox" id="switch" />
         <label for="switch" onclick = "switchCompare()">Toggle</label>
         <p id = "Applications">Applications</p>
         <p id = "Timings">Timings</p>
-        <div id = "graphTextLine"></div>
+        <!-- Three Dropdowns for Emotions -->
         <div type="grid" id = "dropDownGrid">
             <div id = "emojiDropDown1" class = "emojiDropDown">
 
@@ -194,6 +209,8 @@
 
             <button id = "selectButton" onclick = "sendEmotions()">OK</button>
         </div>
+        <!-- Menu Bar -->
+        <div id= "menuBar"></div>
         <div class="grid" id="menuButtonGrid">            
             <button class="blackMenuButton" id = "homeButton" onclick ="window.location.href='Home.html'">
                 <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
@@ -208,6 +225,7 @@
                 <span class ="buttonText">History</span>
             </button>
         </div>
+        <!-- Settings Button -->
         <button id ="settingsButton" onclick = "openSettings()">
             <img src="Images/settings.png"/>
         </button>
