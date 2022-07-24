@@ -1,5 +1,5 @@
 {
-  "name": "uberhackathon2022",
+  "name": "emonitor",
   "version": "1.0.0",
   "description": "EMonitor Desktop App",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/MehulG873/UberHackathon2022.git"
   },
   "author": "Real AI",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MehulG873/UberHackathon2022/issues"
   },

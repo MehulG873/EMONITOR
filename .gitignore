@@ -1,4 +1,4 @@
 node_modules/
-backend/CameraFeed
+backend/CameraFeed/
 backend/LOG/log.log
 backend/__pycache__
