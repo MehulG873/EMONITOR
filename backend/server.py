@@ -20,7 +20,7 @@ app = Flask(__name__)
 logger.warning("Setup Flask") 
 m = Main()
 
-
+#Checks if user is angry
 @app.route('/isangry', methods = ['POST']) 
 def isAngry():
     logger.warning("CHECKING IF ANGRY")
@@ -28,7 +28,7 @@ def isAngry():
     logger.warning(int(angry))
     return json.dumps({"isangry": angry})
 
-
+#Collects client requests and finds the right summary
 @app.route('/summarize', methods = ['POST']) 
 def returnSummary():
     logger.warning("RETURNING SUMMARY")
@@ -44,29 +44,33 @@ def returnSummary():
     else:
         return json.dumps({"result": m.summarizeTimes(emotion1, emotion2, emotion3)})
 
+#Ends the current session
 @app.route('/endsession', methods = ['POST']) 
 def endSession():
     logger.warning("END SESSION")
     m.endSession()
     return json.dumps([])
 
+#Takes a new image
 @app.route('/takeimage', methods = ['POST']) 
 def takeImage():
     return json.dumps({"emotions": m.data.getEmotions()})
 
+#Shuts down the server
 @app.route('/kill', methods = ['POST']) 
 def kill():
     logger.warning("Closed Server")
     m.writeData()
     quit()
-    logger.warning("Quit")
 
+#Captures an image in a new thread
 def captureImage():
     while True:
         m.analyze()
         sleep(0.1)
 
 
+#Creates a proper application
 if __name__ == "__main__": 
     logger.warning("Ready to accept")
     new_thread = Thread(target = captureImage)

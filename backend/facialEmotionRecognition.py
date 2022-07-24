@@ -1,17 +1,14 @@
-from re import L
 import cv2
- 
 from fer import FER
- 
 import matplotlib.pyplot as plt
- 
 import matplotlib.image as mpimg
-
 import logging
 logger = logging.getLogger(__name__)
-# Input Image
 
+#Class that does all the machine learning processing
 class EmotionalAnalyzer:
+
+  #Initialization, which initializes the FER package
   def __init__(self):
     self.emotion_detector = FER()
 
@@ -52,7 +49,6 @@ class EmotionalAnalyzer:
     # Read image file using matplotlib's image module
     if (showImage):
       result_image = mpimg.imread(self.file.replace(".", "_out."))
-      imgplot = plt.imshow(result_image)
       # Display Output Image
       plt.show()
 
